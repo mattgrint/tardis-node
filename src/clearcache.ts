@@ -32,7 +32,7 @@ export async function clearCache(exchange?: Exchange, filters?: Filter<any>[], y
 
     debug('clearing cache dir: %s', dirToRemove)
 
-    await remove(dirToRemove)
+    //await remove(dirToRemove)
 
     debug('cleared cache dir: %s', dirToRemove)
   } catch (e) {
